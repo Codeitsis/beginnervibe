@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 72px;
+    color: #000;
+    padding-right: 10%;
+}
+
+h2 {
+    color: rgb(165, 158, 158);
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+h4 a {
+   color: white;
+   text-decoration: none;
+   padding-left: 5%;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul{
+    flex: 1;
+    text-align: right;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+}
+ul a{
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+  position: relative;
+}
+
+.box{
+    width: 770px;
+    height: auto;
+    padding: 10px;
+    margin-top: -620px;
+    margin-left: 140px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.tb{
+    margin-top: 25px;
+
+}
+
+.p{
+ float:right;
+ height: 100px;
+ margin-left: 440px;
+ margin-top: -225px;
+}
+
+.rm{
+  /* background-color: #000; */
+  height: auto;
+  width: 100px;
+  margin-left: 460px;
+  margin-top: -60px;
+}
+
+.read-more:hover{
+background-color: #000;
+border: 3px solid #000;
+color: white;
+}
+
+.read-more {
+    text-decoration: none;
+    font-style: none;
+    border: 3px solid red;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.number h5 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.number {
+    margin-bottom: 20px;
+}
+
+.pct{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 560px;
+    background: #000;
+    width: 428px;
+    margin-left: 770px;
+    margin-top: -590px;
+    border-bottom: 2px;
+}
+
+article {
+    padding: 50px;
+}
+
+p{
+    color: rgb(165, 158, 158);
+    padding-left: 5%;
+    margin-top: 15px;
+}
+
+.pct-cont {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pct-cont h4{
+    margin-bottom: 5px;
+}
+
+.pct-cont h2 {
+        color: burlywood;
+}
+
+.h4 {
+    margin-bottom: 5px;
+}
+
+ h4 a:hover {
+    color: burlywood;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+.one-foot, .two-foot, .three-foot {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    flex-direction:column;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer .foot {
+    display: flex;
+}
+
+.foot-img {
+    margin-right: 20px;
+    height: 200px;
+    /* width: 200px; */
+}
+
+.one_foot {
+    margin-top: -10px;
+}
+
+.one_foot h2 {
+    margin-top: -250px
+}
+  
+
+  a:hover {
+    color: hsl(5, 85%, 63%);
+  }
+
+
+  /* @media (max-width: 720px) {
+    footer {
+        display: flex;
+        flex-direction:column;
+        width: 80vw;
+        margin: auto;
+        justify-content: space-between;
+    }
+  } */
+
+  /* Styles for screens smaller than 480px (typically mobile devices) */
+/* @media (max-width: 480px) { */
+    /* CSS rules for mobile screens go here */
+    /* body { */
+        /* background-color: green; */
+      /* } */
+  /* } */
+  
+  /* Styles for screens between 481px and 768px (typically tablets) */
+  @media (max-width: 763208px) {
+    /* CSS rules for tablet screens go here */
+    body {
+        background-color: rgb(236, 251, 236);
+      }
+      footer {
+        display: flex;
+        flex-direction:column;
+    }
+  }
+  
+
+
+  
+  /* Styles for screens between 601px and 900px */
+  /* @media (min-width: 601px) and (max-width: 900px) { */
+    /* CSS rules for medium screens go here */
+    /* body { */
+      /* background-color: white; */
+    /* } */
+  /* } */
+  
+  /* Styles for screens larger than 900px */
+  /* @media (min-width: 901px) { */
+    /* CSS rules for large screens go here */
+    /* body { */
+      /* background-color: red;
+    }
+  } */
+  
+
+
+  
+  
